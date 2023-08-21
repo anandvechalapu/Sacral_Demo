@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Reason_code__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason Code</label>
+        <required>true</required>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>true</required>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Cancel_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancel Date Time</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+</CustomObject>
